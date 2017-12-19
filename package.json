@@ -1,0 +1,24 @@
+{
+  "name": "note_webapp",
+  "version": "1.0.0",
+  "description": "frontend-web final exam",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp default",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purechild/note_webapp.git"
+  },
+  "author": "2013108200",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/purechild/note_webapp/issues"
+  },
+  "homepage": "https://github.com/purechild/note_webapp#readme",
+  "dependencies": {
+    "file-saver": "^1.3.3",
+    "screenfull": "^3.3.2"
+  }
+}
