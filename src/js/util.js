@@ -31,13 +31,13 @@ var scrFull = function() {
 //about
 about_layer = document.querySelector('.about_app');
 
-var showDecription = function () {
+var showDescription = function () {
   // console.log('about버튼');
   about_layer.style.height = "auto";
   about_layer.style.border = "1px black dashed";
 };
 
-var hideDecription = function() {
+var hideDescription = function() {
   about_layer.style.height = "0";
   about_layer.style.border = "none";
 };

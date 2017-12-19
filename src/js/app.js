@@ -17,7 +17,7 @@ btnFullscr = document.querySelector('.btn-fullscreen');
 btnFullscr.addEventListener('click', scrFull);
 
 btnAbout = document.querySelector('.btn-about');
-btnAbout.addEventListener('click', showDecription);
+btnAbout.addEventListener('click', showDescription);
 
 btnClose = document.getElementById('close_about');
-btnClose.addEventListener('click', hideDecription);
+btnClose.addEventListener('click', hideDescription);

@@ -7,6 +7,7 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var css = require('gulp-clean-css');
 var watch = require('gulp-watch');
+var rename = require('gulp-rename');
 
 // js 파일
 var alljs = ['src/js/FileSaver.js', 'src/js/screenfull.js','src/js/util.js', 'src/js/app.js'];
@@ -24,7 +25,7 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest('dist/js'))
 });
 gulp.task('minify:script', function() {
-    return gulp.src('all.js')
+    return gulp.src('dist/js/all.js')
         .pipe(uglify())
         .pipe(rename('all.min.js'))
         .pipe(gulp.dest('dist/js'));
