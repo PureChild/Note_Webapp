@@ -33,7 +33,7 @@ about_layer = document.querySelector('.about_app');
 
 var showDescription = function () {
   // console.log('about버튼');
-  about_layer.style.height = "auto";
+  about_layer.style.height = "180px";
   about_layer.style.border = "1px black dashed";
 };
 

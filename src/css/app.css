@@ -29,13 +29,13 @@ h3, h5{
   padding: 0;
 }
 .about_app{
-  max-width: 300px;
+  width: 300px;
   position: absolute;
   left: 50%; margin-left: -150px;
-  top: 50%; margin-top: -150px;
+  top: 50%; margin-top: -90px;
   background-color: #E4F7BA;
   text-align: center;
-
+  /* 안보이게 하기 위해 높이를 0으로 만듦 */
   height: 0;
   overflow: hidden;
 }
